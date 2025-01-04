@@ -19,7 +19,8 @@ fn main() {
         println!("Short")
     };
 
-    println!("Result: {:#}", result);
+    println!("Result: ");
+    println!("{:#?}", result);    
 
     let health = if height <180 {"good"} else{"unkown"};
     println!("Health: {}", health)
